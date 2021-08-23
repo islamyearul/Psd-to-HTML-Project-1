@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #204f87 !important;
+    font-weight: 700;
+    font-size: 12px;}
+.banner-section{
+	background-image: url(img/slider-bg.png);
+	min-height: 490px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.banner-left{
+	background-image: url(img/slider_bg2.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-size: contain;	
+}
+
+
+@media only screen and (max-width: 600px) {
+	.banner-left{
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(-210px, 55px);
+	}
+
+	.who-we-are #who-img{
+    width: 90%;
+    height: auto;
+    margin: auto;
+	}
+	.what-we-do{
+	margin: 10px
+	}
+	.language-section .heading{
+		    width: 80%;
+	}
+	.language{
+		margin: 20px 10px;
+	}
+	#foter-left{
+		    position: absolute;
+    bottom: 5px;
+    left: 80px;
+	}
+	#foter-right{
+		position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: 1;
+    transform: translate(-150px, 5px);
+	}
+
+}
+
+
+
+.banner-content{
+	position: absolute;
+    text-align: center;
+    color: #FFE;
+    width: 100%;
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50px);
+	
+}
+.banner-content h1{
+	font-size: 40px;
+	font-weight: 800;
+	letter-spacing: 1.5px;
+
+}
+.arrow{
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    font-size: 40px;
+    left: 50%;
+    transform: translate(-50%);
+	
+}
+
+.who-we-are{}
+.heading{
+	margin-bottom: 50px;
+}
+.heading span{
+    width: 50px;
+    height: 4px;
+    display: block;
+    background: #f05428;
+    margin-bottom: 20px !important;
+
+}
+.heading h1{
+	color: #204f87;
+	font-size: 36px;
+	font-weight: 700;
+}
+p{
+    color: #b0b0b1;
+    font-size: 14px;
+    text-align: justify;
+}
+.what-we-do-section{
+	background: #f7f8f8;
+	position: relative;
+}
+
+.what-we-do-section::before{
+	content: "";
+    background-image: url(img/content2-bg.png);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 53%;
+}
+.what-we-do-section .heading span{
+	margin: 0 auto;
+}
+.what-we-do{
+	position: relative;
+}
+.what-we-do::before{
+	content:"" ;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,204f87+100&0+0,0.7+100 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(32,79,135,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(32,79,135,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(32,79,135,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#b3204f87',GradientType=0 ); /* IE6-9 */
+
+}
+.what-we-do img{}
+.what-we-do h4{
+	position: absolute;
+    top: 50%;
+    left: 46%;
+    color: #fff;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+}
+.what-we-do a{
+	position: absolute;
+    color: #fff;
+    left: 50%;
+    bottom: 10%;
+}
+.atorny-section{
+	background-image: url(img/atorny-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-bottom: 20px;
+ 
+}
+
+.atorny-section .heading{
+	padding-top: 120px
+}
+.what-we-do h3{
+	position: absolute;
+    bottom: -20px;
+    left: 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transform: translate(-50%,-50%);
+    transition: all 0.5s cubic-bezier(0.76, -0.19, 0.97, 1.57);
+}
+.what-we-do h3:hover{
+	margin-bottom: 40px;
+	font-weight: 700;
+	font-size: 20px;
+}
+.seemore{
+	color: #f05428;
+	font-size: 10pt;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.language-section{
+}
+.language-section span{
+	margin:0 auto;
+}
+.language{}
+.language h3{
+	color: #204f87;
+	font-size: 24px;
+	font-weight: 700;
+}
+.contact-section{
+	background-color: #28377e;
+	margin-top: 50px;
+}
+.contact-section span{
+	margin: 0px auto;
+	margin-bottom: 20px;
+}
+.btn-custom{
+	background: #f15b2a;
+    padding: 10px 60px;
+    border-radius: 0px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.form-control{
+	background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #4759a7;
+    border-radius: 2px;
+    color: #fff !important;
+}
+.form-control:focus{
+	background-color: transparent;
+	border: 2px solid #4759a7;
+	outline: none;
+	box-shadow: 0 0 0 0 rgb(0 123 255 / 0%);
+}
+
+
+input:placeholder{
+	color: white !important;
+}
+input::placeholder{
+	color: white !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white !important;
+}
+
+footer{
+	background-color: #0c1234;
+	height: 50px;
+	width: 100%;
+	position: relative;
+}
+footer p{
+	color: #b1b7dd;
+	font-size: 12px;
+	margin: 0px;
+}
+footer a{
+	color: #b1b7dd;
+	padding:0 10px;
+
+}
+.nav-items{
+
+}
+
